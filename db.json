@@ -1,0 +1,34 @@
+{
+  "cuisines": [
+    {
+      "id": 1,
+      "name": "Dal Bhat ",
+      "image": "./food_images/dal.jpg",
+      "description": "Dal Bhat is the Nepalese everyday dish par excellence.Dal Bhat is served with side dishes on a tray, which you can then eat traditionally with your fingers."
+    },
+    {
+      "id": 2,
+      "name": "Momo",
+      "image": "./food_images/momo.webp",
+      "description": "Momo is a kind of dumpling, which can be found similarly in many Asian countries.Traditionally, momos are served with a dipping sauce, which can be spicy or hot."
+    },
+    {
+      "id": 3,
+      "name": "Khaja Set",
+      "image": "./food_images/khaja.webp",
+      "description": "Kahja Set is always chiura, which is flattened rice.The rice is traditionally surrounded by fried potatoes, chickpeas, shredded buffalo meat, pickled vegetables, roasted peanuts and soybeans."
+    },
+    {
+      "id": 4,
+      "name": "Thukpa",
+      "image": "./food_images/tukpa.webp",
+      "description": "A spicy broth, with thick noodles, vegetables like potatoes, carrots, onion, peas or cabbage, as well as optional buffalo or chicken meat, egg and also chickpeas. The soup itself is enhanced with tomatoes and numerous spices."
+    },
+    {
+      "id": 5,
+      "name": "Yomari",
+      "image": "./food_images/yomari.webp",
+      "description": "One of the best desserts in Nepal is yomari. It it is dough made from rice flour, which is shaped into candy, traditionally filled with molasses and sesame seeds, and then steamed. Other fillings may include chocolate or chaku, a mixture of sugar cane juice, jaggery, ghee and nuts."
+    }
+  ]
+}
