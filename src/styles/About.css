@@ -7,9 +7,12 @@
   
   
   h1 {
-    font-size: 30px;
-    color: #edf3f4;
-    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4ec5e0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
   }
   
   
@@ -19,12 +22,41 @@
     color: #000000;
   }
   
-  
-  .quote {
+  .contact {
+    margin-top: 5px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    text-align: center;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .contact h2 {
     font-size: 24px;
     font-weight: bold;
     color: #4ec5e0;
-    margin-top: 20px;
+    margin-bottom: 10px;
   }
   
+  .contact p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+
+  .contact a {
+    color: #4ec5e0;
+    text-decoration: none;
+
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+  }
+
+ 
   
