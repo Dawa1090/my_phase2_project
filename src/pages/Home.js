@@ -1,17 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import BannerImage from '../assets/boudha.jpg'
 import '../styles/Home.css'
 
 function Home() {
     return (
         <div className='home'>
-            <div
-                className='headerContainer'
-                style={{ background: `url(${BannerImage})` }}
-            >
+            <div className='headerContainer'>
                 <h1>Taste of Nepal</h1>
-                <p>"Spice up your day with a slice of Nepal!"</p>
+                <p>"A Flavorful Journey"</p>
                 <Link to='/cuisine'>
                     <button> Menu awaits! </button>
                 </Link>

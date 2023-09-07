@@ -1,5 +1,5 @@
 .navbar .leftside img {
-  width: 100px; 
+  width: 20px; 
   height: auto; 
   margin-left: 20px; 
 }
@@ -15,4 +15,10 @@
   color: rgb(13, 1, 1);
   text-decoration: none;
   margin: 0 10px; 
+  font-size: 24px; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
 }

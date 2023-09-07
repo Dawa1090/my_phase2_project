@@ -6,8 +6,8 @@ import '../styles/NavBar.css'
 function Navbar() {
   return (
     <div className='navbar'>
-      <div className='leftside'>
-      <img src={Logo} alt='ds'/>
+      <div className='centered'>
+      <img src={Logo} alt='ds'className='Logoclass'/>
     </div>
     <div className='rightside'></div>
     <Link to='/'> Home </Link>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
 import NewCuisineForm from '../components/NewForm';
+import '../styles/Cuisine.css'
 
 function Cuisine() {
 
@@ -35,11 +36,11 @@ function Cuisine() {
 
   return (
     <div>
-      <ul>
+      <ul className='menu'>
       {cuisines.map(cuisine => {
       // console.log(cuisine.image)
 
-         return  <li key={cuisine.id}>
+         return  <li key={cuisine.id} className='cuisine-item'>
             <h2>{cuisine.name}</h2>
             <img src={cuisine.image} alt={cuisine.name} />
             <p>{cuisine.description}</p>

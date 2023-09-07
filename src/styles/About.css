@@ -1,0 +1,30 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  h1 {
+    font-size: 30px;
+    color: #edf3f4;
+    margin-bottom: 20px;
+  }
+  
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000000;
+  }
+  
+  
+  .quote {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4ec5e0;
+    margin-top: 20px;
+  }
+  
+  

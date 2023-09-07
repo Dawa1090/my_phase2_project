@@ -2,12 +2,14 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 10px;
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    margin-bottom: 20px; 
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   
@@ -19,21 +21,21 @@
   .headerContainer h1 {
     justify-content: center;
     align-items: center;
-    font-size: 90px;
+    font-size: 70px;
     height: 60px;
     font-weight: 50;
-    color: black;
+    color: rgb(225, 230, 234);
   }
   
   .headerContainer p {
     padding: 0;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: lighter;
-    color: black;
+    color: rgb(125, 18, 32);
   }
   
   .headerContainer button {
-    color: black;
+    color: rgb(183, 32, 32);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -47,7 +49,7 @@
   }
   
   .headerContainer button:hover {
-    background-color: #07090a;
+    background-color: #e88b2d;
     cursor: pointer;
     transition: 0.3s ease-in;
   }
@@ -93,3 +95,11 @@
       color: #121619;
     }
   }
+  .home {
+    background-image: url('/Users/dawa/Desktop/my-app/src/assets/boudha.jpg');
+  
+  }
+  
+  
+
+ 

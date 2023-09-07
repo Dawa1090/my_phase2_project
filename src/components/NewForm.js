@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 function NewCuisineForm({onAddCuisine}) {
   return (
     <div className="new-cuisine-form">
