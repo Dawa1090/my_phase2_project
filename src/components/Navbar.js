@@ -10,9 +10,9 @@ function Navbar() {
       <img src={Logo} alt='ds'className='Logoclass'/>
     </div>
     <div className='rightside'></div>
-    <Link to='/'> Home </Link>
-    <Link to='/cuisine'> Cuisine </Link>
-    <Link to='/about'> About </Link>
+    <Link className='yo' to='/'> Home </Link>
+    <Link className= "yoo" to='/cuisine'> Cuisine </Link>
+    <Link className= "yooo" to='/about'> About </Link>
     </div>
   )
 }

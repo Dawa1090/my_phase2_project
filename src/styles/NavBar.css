@@ -22,3 +22,20 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.yo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.yoo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.yooo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
