@@ -6,9 +6,6 @@ import '../styles/NavBar.css'
 function Navbar() {
   return (
     <div className='navbar'>
-      <div className='centered'>
-      <img src={Logo} alt='ds'className='Logoclass'/>
-    </div>
     <div className='rightside'></div>
     <Link className='yo' to='/'> Home </Link>
     <Link className= "yoo" to='/cuisine'> Cuisine </Link>
